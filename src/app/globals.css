@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
 :root {
+  /*Fuente Principal*/
+  --fuente-lapiz: 'Caveat', cursive;
   /* Colores de la intefaz */
   --Color-Madera-Oscura:#5d3a1a;
   --Color-Madera-Clara:#8b5a2b;
@@ -10,6 +14,8 @@
   --post-verde:#d6ffd6;
   --post-amarillo:#fff5d6;
   --post-morado:#e6d6ff;
+  /*Color del Ping*/
+  --color-ping:#ef4444;
 }
 
 *{
