@@ -1,5 +1,6 @@
 import Navbar from "@/Components/Navbar/Navbar";
 import PostIt from "@/Components/PostIt/PostIt";
+import WelcomBanner from "@/Components/Banner/WelcomBanner";
 import { title } from "process";
 
 type ColorNota = "yellow" | "blue" | "green" | "red" | "purple";
@@ -23,7 +24,8 @@ export default function Home() {
   ];
 
   return (
-    <main style={{ padding: '3rem 2rem' }}>
+    <main style={{ padding: '3rem 2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem' }}>
+      <WelcomBanner />
       <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center' }}>
         
         {notas.map((nota) => (
